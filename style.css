@@ -16,6 +16,10 @@ body {
     display: grid;
     grid-template-columns: 300px 700px;
 }
+.left-section{
+    display: grid;
+    grid-column: 300px;
+}
 .left-content{
     padding: 1rem 1rem 1rem 1rem;
     background-color: #000;
@@ -61,6 +65,15 @@ body {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
 .skill-name{
     font-size: 0.65rem;
     font-weight: 0.65rem;
@@ -69,6 +82,12 @@ body {
 }
 .progress-bar{
     border: 1px white solid;
+}
+
+.right-section{
+    display: grid;
+    grid-template-columns: 300px 1000px;
+    width: 90%;
 }
 
 .right-main-content {
@@ -99,5 +118,5 @@ body {
 
 @media screen and (max-width: 630px)
 .main-content {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr)
 }
