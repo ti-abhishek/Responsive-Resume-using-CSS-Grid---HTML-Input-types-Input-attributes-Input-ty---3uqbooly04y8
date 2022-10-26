@@ -18,7 +18,8 @@ body {
 }
 .left-section{
     display: grid;
-    grid-column: 300px;
+    grid-column: span 1;
+    background-color: #242531;
 }
 .left-content{
     padding: 1rem 1rem 1rem 1rem;
@@ -86,7 +87,8 @@ body {
 
 .right-section{
     display: grid;
-    grid-template-columns: 300px 1000px;
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
     width: 90%;
 }
 
